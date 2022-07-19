@@ -59,7 +59,7 @@ setTimeout(function() {
 
 document.getElementById("title").innerHTML += `${project}`;
 document.getElementById("loader").innerHTML += `${project}...`;
-document.getElementById("errorhelp").innerHTML = `Go to the ${project} source here.<br><a class="button" href="${projurl}">${project} source</a><br>Go directly to the <a href="https://dev.azure.com/${organization}/${project}/_build?view=runs">Pipelines here</a>.`;
+document.getElementById("errorhelp").innerHTML = `Go to the ${project} source here.<a class="button" href="${projurl}">${project} source</a><br>Go directly to the Pipelines here.<a href="https://dev.azure.com/${organization}/${project}/_build?view=runs">Azure Pipelines</a>`;
 
 try {
 	var request = new XMLHttpRequest();
