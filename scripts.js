@@ -1,6 +1,6 @@
-const deforganization = "project-pokemon";
-const defproject = "NHSE";
-const defprojurl = "https://github.com/kwsch/NHSE";
+const deforganization = "MyShiLingStar";
+const defproject = "ACNHPokerCore";
+const defprojurl = "https://github.com/MyShiLingStar/ACNHPokerCore";
 const oneMinute = 60 * 1000;
 const oneHour = 60 * oneMinute;
 const oneDay = 24 * oneHour;
